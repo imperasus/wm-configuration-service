@@ -9,7 +9,7 @@ eureka:
 
 spring:
   security:
-	  oauth2:
-		  resourceserver:
-			  jwt:
-				  issuer-uri: http://localhost:8090/realms/workmate
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://backend-keycloak-auth:8080/auth/realms/my_realm
